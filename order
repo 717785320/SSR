@@ -1,0 +1,7 @@
+sudo -i
+wget -N –no-check-certificate https://raw.githubusercontent.com/717785320/SSR/master/bbr.sh && bash bbr.sh install
+sudo -i
+bash bbr.sh start
+wget –no-check-certificate https://raw.githubusercontent.com/717785320/SSR/master/shadowsocksR.sh
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh
